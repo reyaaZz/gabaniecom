@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: #333;
+    background-image: url(images/final.avif);
+    background-position: center;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    padding: 20px;   
+}
+h1 {
+    margin-bottom: 10px;
+}
+.contact-info {
+    padding: 20px;
+    text-align: center;
+}
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+.social-media li {
+    margin: 10px 0;
+}
+.social-media a {
+    text-decoration: none;
+    color: #000000;
+}
+.social-media img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    margin: 10px; 
+    transition: transform 0.3s ease;
+}
+.social-media img:hover {
+    transform: scale(1.1); 
+}
+.social-media a:hover {
+    color: #ffab40;
+}
+.contact-button {
+    text-align: center;
+    margin-top: 30px;
+}
+button#contactBtn {
+    background-color: #946640fa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button#contactBtn:hover {
+  background-color: #A78874;
+}
